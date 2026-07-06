@@ -10,12 +10,33 @@ export default function FeaturesSection(): React.JSX.Element {
     <div id="features" data-section="features">
         <SectionErrorBoundary name="features">
               <FeaturesBentoGrid
-        tag="Por qué elegirnos"
-        title="Diseñado para el Éxito de tu Negocio"
-        description="Soluciones digitales optimizadas para captar más clientes, pacientes o inversores."
-        features={[{"title":"Portales para Pacientes","imageSrc":"https://storage.googleapis.com/webild/users/user_3G7lP4hAI7lZ4o4pKdNJOJn1cYO/uploaded-1783351391649-nulgnx0r.png","description":"Sistemas seguros y fáciles de usar para clínicas y consultorios."},{"description":"Muestra tus propiedades con galerías de alta calidad y filtros avanzados.","imageSrc":"https://images.pexels.com/photos/9512019/pexels-photo-9512019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=9512019","title":"Catálogos Inmobiliarios"},{"description":"Destaca las obras de tu constructora con un diseño impactante.","imageSrc":"https://images.pexels.com/photos/8837595/pexels-photo-8837595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=8837595","title":"Portafolios de Proyectos"},{"title":"Optimización SEO Local","imageSrc":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000","description":"Aparece primero cuando busquen tus servicios en tu ciudad."}]}
-        textAnimation="slide-up"
-      />
+          tag="Por qué elegirnos"
+          title="Diseñado para el Éxito de tu Negocio"
+          description="Soluciones digitales optimizadas para captar más clientes, pacientes o inversores."
+          features={[
+            {
+              title: "Portales para Pacientes",
+              description: "Sistemas seguros y fáciles de usar para clínicas y consultorios.",
+              imageSrc: "http://img.b2bpic.net/free-photo/menu-circle-button-front-side-white-background_187299-40323.jpg",
+            },
+            {
+              title: "Catálogos Inmobiliarios",
+              description: "Muestra tus propiedades con galerías de alta calidad y filtros avanzados.",
+              imageSrc: "http://img.b2bpic.net/free-photo/battery-low-front-side-with-white-background_187299-39726.jpg",
+            },
+            {
+              title: "Portafolios de Proyectos",
+              description: "Destaca las obras de tu constructora con un diseño impactante.",
+              imageSrc: "http://img.b2bpic.net/free-photo/abstract-different-colored-draw-paper_23-2147747577.jpg",
+            },
+            {
+              title: "Optimización SEO Local",
+              description: "Aparece primero cuando busquen tus servicios en tu ciudad.",
+              imageSrc: "http://img.b2bpic.net/free-photo/ui-ux-representations-with-smartphone_23-2150201873.jpg",
+            },
+          ]}
+          textAnimation="slide-up"
+        />
         </SectionErrorBoundary>
       </div>
   );
