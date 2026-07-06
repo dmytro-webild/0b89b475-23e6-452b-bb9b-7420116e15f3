@@ -30,7 +30,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Roberto V.",
               role: "CEO, Inmobiliaria Vista",
               quote: "La velocidad de carga y la integración con nuestro CRM inmobiliario ha sido clave. Una inversión que se pagó sola en el primer mes.",
-              imageSrc: "http://img.b2bpic.net/free-photo/elderly-businessman-posing_23-2148116269.jpg",
+              imageSrc: "https://images.pexels.com/photos/7647213/pexels-photo-7647213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7647213",
             },
             {
               name: "Dra. Elena S.",
