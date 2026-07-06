@@ -15,39 +15,29 @@ export default function ProductSection(): React.JSX.Element {
           description="Explora nuestros casos de éxito en clínicas, inmobiliarias y constructoras."
           items={[
             {
-              title: "Plataforma Médica",
-              description: "Full stack architecture.",
+              title: "SB Capital",
+              description: "Sitio web corporativo para empresa de inversión. Visita: sbcapital.es",
               imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg",
             },
             {
-              title: "E-commerce Store",
-              description: "Conversion-focused shops.",
+              title: "Tierra Cocida",
+              description: "Catálogo digital para productos artesanales. Visita: tierracocida.com",
               imageSrc: "http://img.b2bpic.net/free-photo/stylish-clothing-boutique-interior_23-2151961902.jpg",
             },
             {
-              title: "Corporate Site",
-              description: "Professional brand presence.",
+              title: "Clínicas Peñarrubia",
+              description: "Plataforma médica y de servicios de salud. Visita: clinicaspeñarrubia.com",
               imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-online-statistics-copy-space-mockup_482257-123748.jpg",
             },
             {
-              title: "Mobile Web App",
-              description: "Highly interactive UI.",
+              title: "FCS Explotaciones",
+              description: "Presencia digital para servicios empresariales. Visita: fcsexplotaciones.com",
               imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169839.jpg",
             },
             {
-              title: "Portfolio Site",
-              description: "Creative visual showcases.",
+              title: "Club Cadete",
+              description: "Portal web interactivo para club deportivo. Visita: clubcadete.com",
               imageSrc: "http://img.b2bpic.net/free-photo/view-nutritional-counter-app_23-2149880610.jpg",
-            },
-            {
-              title: "Dashboard UI",
-              description: "Data-heavy application.",
-              imageSrc: "http://img.b2bpic.net/free-photo/financial-application-ui-pc-screen-showing-company-revenue_482257-119232.jpg",
-            },
-            {
-              title: "Marketing Site",
-              description: "High engagement funnel.",
-              imageSrc: "http://img.b2bpic.net/free-photo/female-web-designer-with-papers-notes-office_23-2149749877.jpg",
             },
           ]}
           textAnimation="fade-blur"
