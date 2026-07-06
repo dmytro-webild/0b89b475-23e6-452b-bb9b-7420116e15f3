@@ -17,7 +17,7 @@ export default function FeaturesSection(): React.JSX.Element {
             {
               title: "Portales para Pacientes",
               description: "Sistemas seguros y fáciles de usar para clínicas y consultorios.",
-              imageSrc: "https://images.pexels.com/photos/6627924/pexels-photo-6627924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=6627924",
+              imageSrc: "https://images.pexels.com/photos/12238860/pexels-photo-12238860.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=12238860",
             },
             {
               title: "Catálogos Inmobiliarios",
