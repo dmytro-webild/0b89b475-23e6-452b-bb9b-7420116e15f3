@@ -14,9 +14,9 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroSplitVerticalMarquee
-      tag="Desarrollo Web Experto"
-      title="Impulsa tu Negocio al Siguiente Nivel"
-      description="Creamos páginas web rápidas y de alta conversión para clínicas, constructoras, inmobiliarias y más."
+      tag="Diseño Web para Pequeñas Empresas"
+      title="Crea tu Presencia Digital Profesional"
+      description="Diseñamos y desarrollamos sitios web a medida para ayudar a tu pequeña empresa a destacar en internet y atraer más clientes."
       primaryButton={{
         text: "Iniciar Proyecto",
         href: "#contact",
@@ -73,9 +73,9 @@ export default function HomePage() {
   <div id="social" data-section="social">
     <SectionErrorBoundary name="social">
           <SocialProofMarquee
-      tag="Con la Confianza de Líderes del Sector"
-      title="Empresas que Crecen con Nosotros"
-      description="Nuestro trabajo impulsa negocios desde clínicas dentales hasta grandes constructoras."
+      tag="Confían en Nosotros"
+      title="Pequeñas Empresas que Crecen con Nosotros"
+      description="Ayudamos a negocios locales y emprendedores a establecer una presencia online sólida y profesional."
       names={[
         "Clínica Dental Sonrisas",
         "Constructora Horizonte",
