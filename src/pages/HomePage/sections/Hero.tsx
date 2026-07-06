@@ -11,7 +11,7 @@ export default function HeroSection(): React.JSX.Element {
         <SectionErrorBoundary name="hero">
               <HeroSplitVerticalMarquee
           tag="Diseño Web para Pequeñas Empresas"
-          title="Crea tu Presencia Digital Profesional"
+          title="Crea o Mejora tu Presencial Digital Profesional"
           description="Diseñamos y desarrollamos sitios web a medida para ayudar a tu pequeña empresa a destacar en internet y atraer más clientes."
           primaryButton={{
             text: "Iniciar Proyecto",
