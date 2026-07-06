@@ -32,7 +32,7 @@ export default function ProductSection(): React.JSX.Element {
             {
               title: "FCS Explotaciones",
               description: "Presencia digital para servicios empresariales. Visita: fcsexplotaciones.com",
-              imageSrc: "https://images.unsplash.com/photo-1541888086425-d81bb19240f5?auto=format&fit=crop&q=80&w=800",
+              imageSrc: "https://images.pexels.com/photos/38199714/pexels-photo-38199714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=38199714",
             },
             {
               title: "Club Cadete",
