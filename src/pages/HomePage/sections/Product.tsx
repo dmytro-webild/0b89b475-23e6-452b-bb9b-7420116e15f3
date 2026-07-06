@@ -17,7 +17,7 @@ export default function ProductSection(): React.JSX.Element {
             {
               title: "SB Capital",
               description: "Sitio web corporativo para empresa de inversión. Visita: sbcapital.es",
-              imageSrc: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
+              imageSrc: "https://images.pexels.com/photos/17238410/pexels-photo-17238410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=17238410",
             },
             {
               title: "Tierra Cocida",
