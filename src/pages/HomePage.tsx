@@ -14,15 +14,15 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroSplitVerticalMarquee
-      tag="Expert Web Development"
-      title="Launch Your Brand to the Moon"
-      description="We build high-converting, lightning-fast websites that launch your business into orbit."
+      tag="Desarrollo Web Experto"
+      title="Impulsa tu Negocio al Siguiente Nivel"
+      description="Creamos páginas web rápidas y de alta conversión para clínicas, constructoras, inmobiliarias y más."
       primaryButton={{
-        text: "Start Project",
+        text: "Iniciar Proyecto",
         href: "#contact",
       }}
       secondaryButton={{
-        text: "View Work",
+        text: "Ver Trabajos",
         href: "#product",
       }}
       leftItems={[
@@ -73,12 +73,12 @@ export default function HomePage() {
   <div id="social" data-section="social">
     <SectionErrorBoundary name="social">
           <SocialProofMarquee
-      tag="Trusted By Industry Leaders"
-      title="Companies Scaling with Us"
-      description="Our work powers businesses ranging from startups to enterprise organizations."
+      tag="Con la Confianza de Líderes del Sector"
+      title="Empresas que Crecen con Nosotros"
+      description="Nuestro trabajo impulsa negocios desde clínicas dentales hasta grandes constructoras."
       names={[
-        "TechCorp",
-        "InnovateLab",
+        "Clínica Dental Sonrisas",
+        "Constructora Horizonte",
         "GrowthCo",
         "StartupXYZ",
         "DigitalWave",
@@ -93,9 +93,9 @@ export default function HomePage() {
   <div id="about" data-section="about">
     <SectionErrorBoundary name="about">
           <AboutMediaOverlay
-      tag="Our Mission"
-      title="More Than Just Web Design"
-      description="At Digital Rocket, we combine technical excellence with strategic design to ensure your website performs as well as it looks."
+      tag="Nuestra Misión"
+      title="Más que Diseño Web"
+      description="En Digital Rocket, combinamos excelencia técnica con diseño estratégico para asegurar que tu web atraiga pacientes, clientes e inversores para tu clínica, constructora o inmobiliaria."
       imageSrc="http://img.b2bpic.net/free-photo/group-young-businesswomen-sitting-modern-office-talking-each-other_23-2147955160.jpg"
       textAnimation="fade"
     />
@@ -105,28 +105,28 @@ export default function HomePage() {
   <div id="features" data-section="features">
     <SectionErrorBoundary name="features">
           <FeaturesBentoGrid
-      tag="Why Choose Us"
-      title="Built for High Performance"
-      description="Optimized for speed, SEO, and user engagement."
+      tag="Por qué elegirnos"
+      title="Diseñado para el Éxito de tu Negocio"
+      description="Soluciones digitales optimizadas para captar más clientes, pacientes o inversores."
       features={[
         {
-          title: "SEO Optimized",
-          description: "Rank higher in search results organically.",
+          title: "Portales para Pacientes",
+          description: "Sistemas seguros y fáciles de usar para clínicas y consultorios.",
           imageSrc: "http://img.b2bpic.net/free-photo/menu-circle-button-front-side-white-background_187299-40323.jpg",
         },
         {
-          title: "Speed Focused",
-          description: "Blazing fast load times for better retention.",
+          title: "Catálogos Inmobiliarios",
+          description: "Muestra tus propiedades con galerías de alta calidad y filtros avanzados.",
           imageSrc: "http://img.b2bpic.net/free-photo/battery-low-front-side-with-white-background_187299-39726.jpg",
         },
         {
-          title: "Modern Design",
-          description: "Cutting edge aesthetics that build trust.",
+          title: "Portafolios de Proyectos",
+          description: "Destaca las obras de tu constructora con un diseño impactante.",
           imageSrc: "http://img.b2bpic.net/free-photo/abstract-different-colored-draw-paper_23-2147747577.jpg",
         },
         {
-          title: "Mobile Responsive",
-          description: "Perfectly fluid layouts across all devices.",
+          title: "Optimización SEO Local",
+          description: "Aparece primero cuando busquen tus servicios en tu ciudad.",
           imageSrc: "http://img.b2bpic.net/free-photo/ui-ux-representations-with-smartphone_23-2150201873.jpg",
         },
       ]}
@@ -138,12 +138,12 @@ export default function HomePage() {
   <div id="product" data-section="product">
     <SectionErrorBoundary name="product">
           <FeaturesImageBento
-      tag="Our Portfolio"
-      title="Engineered Excellence"
-      description="Explore our recent success stories and project implementations."
+      tag="Nuestro Portafolio"
+      title="Excelencia en Cada Sector"
+      description="Explora nuestros casos de éxito en clínicas, inmobiliarias y constructoras."
       items={[
         {
-          title: "SaaS Platform",
+          title: "Plataforma Médica",
           description: "Full stack architecture.",
           imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg",
         },
@@ -186,38 +186,38 @@ export default function HomePage() {
   <div id="testimonials" data-section="testimonials">
     <SectionErrorBoundary name="testimonials">
           <TestimonialQuoteCards
-      tag="Client Stories"
-      title="Driving Results Together"
-      description="Don't just take our word for it—here is what our partners think."
+      tag="Casos de Éxito"
+      title="Impulsando Resultados Juntos"
+      description="No te quedes solo con nuestras palabras, descubre lo que opinan nuestros clientes."
       testimonials={[
         {
-          name: "Sarah J.",
-          role: "CEO, TechCorp",
-          quote: "Digital Rocket delivered beyond expectations.",
+          name: "Dr. Carlos M.",
+          role: "Director, Clínica Dental Sonrisas",
+          quote: "Desde que lanzamos la nueva web, hemos duplicado las reservas de citas online. El diseño transmite la confianza que nuestros pacientes necesitan.",
           imageSrc: "http://img.b2bpic.net/free-photo/positive-middle-aged-business-leader-window_1262-5388.jpg",
         },
         {
-          name: "Mark D.",
-          role: "CTO, CloudScale",
-          quote: "The speed and performance improvements were immense.",
+          name: "Laura G.",
+          role: "Gerente, Construcciones G&M",
+          quote: "Digital Rocket entendió perfectamente nuestro sector. Ahora nuestro portafolio de proyectos luce increíble y atrae a clientes corporativos de alto nivel.",
           imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1074.jpg",
         },
         {
-          name: "Emily R.",
-          role: "Founder, GrowthCo",
-          quote: "Our conversion rates doubled since the redesign.",
+          name: "Roberto V.",
+          role: "CEO, Inmobiliaria Vista",
+          quote: "La velocidad de carga y la integración con nuestro CRM inmobiliario ha sido clave. Una inversión que se pagó sola en el primer mes.",
           imageSrc: "http://img.b2bpic.net/free-photo/elderly-businessman-posing_23-2148116269.jpg",
         },
         {
-          name: "David K.",
-          role: "Product Manager",
-          quote: "Professional, reliable, and incredibly fast delivery.",
+          name: "Dra. Elena S.",
+          role: "Fundadora, Centro Médico Avanzado",
+          quote: "Profesionalidad absoluta. La página web es ahora nuestra principal herramienta de captación de pacientes privados.",
           imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg",
         },
         {
-          name: "Julia M.",
-          role: "Marketing Lead",
-          quote: "They truly understood our brand vision.",
+          name: "Miguel A.",
+          role: "Socio, Arquitectura y Diseño",
+          quote: "El equipo de Digital Rocket superó nuestras expectativas. Un diseño moderno y elegante que refleja exactamente lo que hacemos.",
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-holding-phone_23-2148815605.jpg",
         },
       ]}
