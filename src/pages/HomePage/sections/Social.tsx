@@ -14,13 +14,13 @@ export default function SocialSection(): React.JSX.Element {
           title="Pequeñas Empresas que Crecen con Nosotros"
           description="Ayudamos a negocios locales y emprendedores a establecer una presencia online sólida y profesional."
           names={[
-            "Clínicas Peñarrubia",
-            "FCS Explotaciones",
+            "Clínica Dental Sonrisas",
+            "Constructora Horizonte",
             "GrowthCo",
-            "Avilés Clínica Dental",
+            "StartupXYZ",
             "DigitalWave",
             "CloudScale",
-            "Tierra Cocida",
+            "VisionAI",
           ]}
           textAnimation="fade-blur"
         />
