@@ -37,7 +37,7 @@ export default function ProductSection(): React.JSX.Element {
             {
               title: "Club Cadete",
               description: "Portal web interactivo para club deportivo. Visita: clubcadete.com",
-              imageSrc: "https://images.pexels.com/photos/28310164/pexels-photo-28310164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=28310164",
+              imageSrc: "https://images.pexels.com/photos/36057208/pexels-photo-36057208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=36057208",
             },
           ]}
           textAnimation="fade-blur"
