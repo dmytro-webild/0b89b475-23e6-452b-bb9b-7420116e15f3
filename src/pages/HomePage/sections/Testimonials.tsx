@@ -18,7 +18,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Dr. Carlos M.",
               role: "Director, Clínica Dental Sonrisas",
               quote: "Desde que lanzamos la nueva web, hemos duplicado las reservas de citas online. El diseño transmite la confianza que nuestros pacientes necesitan.",
-              imageSrc: "https://images.pexels.com/photos/13422326/pexels-photo-13422326.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=13422326",
+              imageSrc: "http://img.b2bpic.net/free-photo/positive-middle-aged-business-leader-window_1262-5388.jpg",
             },
             {
               name: "Laura G.",
