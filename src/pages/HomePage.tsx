@@ -1,6 +1,7 @@
 import AboutMediaOverlay from '@/components/sections/about/AboutMediaOverlay';
 import ContactCta from '@/components/sections/contact/ContactCta';
 import FeaturesBentoGrid from '@/components/sections/features/FeaturesBentoGrid';
+import TeamDetailedCards from '@/components/sections/team/TeamDetailedCards';
 import FeaturesImageBento from '@/components/sections/features/FeaturesImageBento';
 import HeroSplitVerticalMarquee from '@/components/sections/hero/HeroSplitVerticalMarquee';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
@@ -14,9 +15,9 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroSplitVerticalMarquee
-      tag="Desarrollo Web Experto"
-      title="Impulsa tu Negocio al Siguiente Nivel"
-      description="Creamos páginas web rápidas y de alta conversión para clínicas, constructoras, inmobiliarias y más."
+      tag="Diseño y Desarrollo Web"
+      title="Crea o Mejora tu Presencia en Internet"
+      description="Ayudamos a pequeñas empresas a destacar online con páginas web modernas, rápidas y diseñadas para atraer más clientes."
       primaryButton={{
         text: "Iniciar Proyecto",
         href: "#contact",
@@ -70,19 +71,49 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
+  <div id="team" data-section="team">
+    <SectionErrorBoundary name="team">
+      <TeamDetailedCards
+        tag="Conoce a Nuestro Equipo"
+        title="Los Expertos Detrás de tu Éxito"
+        description="Somos un equipo apasionado por el diseño y desarrollo web, dedicados a impulsar tu pequeña empresa."
+        members={[
+          {
+            name: "Carlos Mendoza",
+            role: "Director de Proyectos",
+            bio: "Especialista en entender las necesidades de pequeñas empresas y transformarlas en soluciones digitales efectivas.",
+            imageSrc: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
+          },
+          {
+            name: "Laura Gómez",
+            role: "Diseñadora UI/UX",
+            bio: "Creadora de interfaces intuitivas y atractivas que conectan con los clientes de tu negocio.",
+            imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+          },
+          {
+            name: "Miguel Ángel",
+            role: "Desarrollador Web",
+            bio: "Experto en construir sitios web rápidos, seguros y optimizados para el crecimiento de tu empresa.",
+            imageSrc: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+          }
+        ]}
+      />
+    </SectionErrorBoundary>
+  </div>
+
   <div id="social" data-section="social">
     <SectionErrorBoundary name="social">
           <SocialProofMarquee
-      tag="Con la Confianza de Líderes del Sector"
-      title="Empresas que Crecen con Nosotros"
-      description="Nuestro trabajo impulsa negocios desde clínicas dentales hasta grandes constructoras."
+      tag="Con la Confianza de Pequeñas Empresas"
+      title="Negocios que Crecen con Nosotros"
+      description="Ayudamos a pequeñas empresas a establecer y mejorar su presencia en línea con sitios web profesionales."
       names={[
         "Clínica Dental Sonrisas",
         "Constructora Horizonte",
-        "GrowthCo",
-        "StartupXYZ",
-        "DigitalWave",
-        "CloudScale",
+        "Inmobiliaria del Valle",
+        "Centro Médico San José",
+        "Estudio Jurídico López",
+        "Consultora Avanza",
         "VisionAI",
       ]}
       textAnimation="fade-blur"
@@ -94,8 +125,8 @@ export default function HomePage() {
     <SectionErrorBoundary name="about">
           <AboutMediaOverlay
       tag="Nuestra Misión"
-      title="Más que Diseño Web"
-      description="En Digital Rocket, combinamos excelencia técnica con diseño estratégico para asegurar que tu web atraiga pacientes, clientes e inversores para tu clínica, constructora o inmobiliaria."
+      title="Tu Presencia Online, Elevada"
+      description="Ayudamos a pequeñas empresas a establecer una presencia digital profesional o a renovar su sitio web actual. Diseñamos y desarrollamos webs a medida para que tu negocio destaque."
       imageSrc="http://img.b2bpic.net/free-photo/group-young-businesswomen-sitting-modern-office-talking-each-other_23-2147955160.jpg"
       textAnimation="fade"
     />
@@ -143,23 +174,23 @@ export default function HomePage() {
       description="Explora nuestros casos de éxito en clínicas, inmobiliarias y constructoras."
       items={[
         {
-          title: "Plataforma Médica",
-          description: "Full stack architecture.",
+          title: "Clínica Médica y Dental",
+          description: "Sitios web que transmiten confianza y facilitan el contacto con pacientes.",
           imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg",
         },
         {
-          title: "E-commerce Store",
-          description: "Conversion-focused shops.",
+          title: "Empresas Constructoras",
+          description: "Portafolios digitales profesionales para mostrar tus mejores proyectos.",
           imageSrc: "http://img.b2bpic.net/free-photo/stylish-clothing-boutique-interior_23-2151961902.jpg",
         },
         {
-          title: "Corporate Site",
-          description: "Professional brand presence.",
+          title: "Agencias Inmobiliarias",
+          description: "Catálogos de propiedades optimizados para captar compradores.",
           imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-online-statistics-copy-space-mockup_482257-123748.jpg",
         },
         {
-          title: "Mobile Web App",
-          description: "Highly interactive UI.",
+          title: "Pequeños Negocios",
+          description: "Presencia online moderna para destacar y atraer más clientes locales.",
           imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169839.jpg",
         },
         {
@@ -184,6 +215,27 @@ export default function HomePage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
+    <SectionErrorBoundary name="team">
+      <TeamDetailedCards
+        tag="Nuestro Equipo"
+        title="Conoce a los Expertos"
+        description="Somos un equipo apasionado por el diseño y desarrollo web, dedicados a crear la presencia online perfecta para tu pequeña empresa."
+        members={[
+          {
+            name: "Alejandro Ruiz",
+            role: "Fundador & Lead Developer",
+            bio: "Especialista en crear experiencias web rápidas, modernas y escalables para negocios locales y clínicas.",
+            imageSrc: "http://img.b2bpic.net/free-photo/portrait-of-smiling-young-man-in-office_1139-1075.jpg",
+          },
+          {
+            name: "Sofía Méndez",
+            role: "Directora de Diseño UI/UX",
+            bio: "Apasionada por el diseño centrado en el usuario, asegurando que tu sitio web no solo se vea bien, sino que convierta visitantes en clientes.",
+            imageSrc: "http://img.b2bpic.net/free-photo/portrait-of-smiling-young-woman-in-office_1139-1076.jpg",
+          }
+        ]}
+      />
+    </SectionErrorBoundary>
     <SectionErrorBoundary name="testimonials">
           <TestimonialQuoteCards
       tag="Casos de Éxito"
