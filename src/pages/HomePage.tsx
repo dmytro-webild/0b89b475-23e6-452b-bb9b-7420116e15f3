@@ -9,7 +9,6 @@ import HeroSection from './HomePage/sections/Hero';
 import SocialSection from './HomePage/sections/Social';
 import AboutSection from './HomePage/sections/About';
 import FeaturesSection from './HomePage/sections/Features';
-import ProductSection from './HomePage/sections/Product';
 import TestimonialsSection from './HomePage/sections/Testimonials';
 import MetricsSection from './HomePage/sections/Metrics';
 import ContactSection from './HomePage/sections/Contact';
@@ -25,7 +24,6 @@ export default function HomePage(): React.JSX.Element {
 
   <FeaturesSection />
 
-  <ProductSection />
 
   <TestimonialsSection />
 
