@@ -14,8 +14,7 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import MetricsSection from './HomePage/sections/Metrics';
 import ContactSection from './HomePage/sections/Contact';
 
-
-import PortfolioSection from './HomePage/sections/Portfolio';export default function HomePage(): React.JSX.Element {
+export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
@@ -27,7 +26,6 @@ import PortfolioSection from './HomePage/sections/Portfolio';export default func
   <FeaturesSection />
 
   <ProductSection />
-      <PortfolioSection />
 
   <TestimonialsSection />
 
