@@ -22,7 +22,7 @@ export default function FeaturesSection(): React.JSX.Element {
             {
               title: "Catálogos Inmobiliarios",
               description: "Muestra tus propiedades con galerías de alta calidad y filtros avanzados.",
-              imageSrc: "http://img.b2bpic.net/free-photo/battery-low-front-side-with-white-background_187299-39726.jpg",
+              imageSrc: "https://images.pexels.com/photos/13270594/pexels-photo-13270594.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=13270594",
             },
             {
               title: "Portafolios de Proyectos",
