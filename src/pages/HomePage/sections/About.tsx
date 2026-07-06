@@ -13,7 +13,7 @@ export default function AboutSection(): React.JSX.Element {
           tag="Nuestra Misión"
           title="Más que una web bonita."
           description="En Digital Rocket diseñamos páginas web para dentistas, clínicas, inmobiliarias, despachos y negocios locales que quieren que su web trabaje: atraer llamadas, reservas y contactos reales cada semana."
-          imageSrc="https://storage.googleapis.com/webild/users/user_3G7lP4hAI7lZ4o4pKdNJOJn1cYO/tmp/dark-navy-background-floating-browser-mo-1783349643336-0a69b89c.png"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3G7lP4hAI7lZ4o4pKdNJOJn1cYO/uploaded-1783349794313-95heaxlx.png"
           textAnimation="fade"
         />
         </SectionErrorBoundary>
