@@ -17,22 +17,17 @@ export default function FeaturesSection(): React.JSX.Element {
             {
               title: "Portales para Pacientes",
               description: "Sistemas seguros y fáciles de usar para clínicas y consultorios.",
-              imageSrc: "https://images.pexels.com/photos/12238860/pexels-photo-12238860.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=12238860",
+              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-attractive-businesswoman-crossing-arms_1262-4724.jpg",
             },
             {
               title: "Catálogos Inmobiliarios",
               description: "Muestra tus propiedades con galerías de alta calidad y filtros avanzados.",
-              imageSrc: "https://images.pexels.com/photos/13270594/pexels-photo-13270594.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=13270594",
+              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-leader-modern-office-with-businesspeople-workin_1139-956.jpg",
             },
             {
               title: "Portafolios de Proyectos",
               description: "Destaca las obras de tu constructora con un diseño impactante.",
-              imageSrc: "https://images.pexels.com/photos/35300835/pexels-photo-35300835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=35300835",
-            },
-            {
-              title: "Optimización SEO Local",
-              description: "Aparece primero cuando busquen tus servicios en tu ciudad.",
-              imageSrc: "http://img.b2bpic.net/free-photo/ui-ux-representations-with-smartphone_23-2150201873.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businesswoman-her-employees-background_1262-20305.jpg",
             },
           ]}
           textAnimation="slide-up"
