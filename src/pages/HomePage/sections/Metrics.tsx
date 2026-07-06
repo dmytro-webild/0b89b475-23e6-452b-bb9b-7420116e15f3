@@ -10,25 +10,25 @@ export default function MetricsSection(): React.JSX.Element {
     <div id="metrics" data-section="metrics">
         <SectionErrorBoundary name="metrics">
               <MetricsSimpleCards
-          tag="Impacto"
-          title="Impacto y éxito basado en datos"
-          description="No adivinamos, optimizamos con métricas precisas."
+          tag="Impact"
+          title="Data-Driven Success"
+          description="We don't guess, we optimize with precision metrics."
           metrics={[
             {
               value: "150+",
-              description: "Proyectos entregados",
+              description: "Projects Delivered",
             },
             {
               value: "98%",
-              description: "Satisfacción del cliente",
+              description: "Client Satisfaction",
             },
             {
               value: "5x",
-              description: "Más velocidad media",
+              description: "Average Speed Increase",
             },
             {
               value: "200%",
-              description: "Crecimiento promedio en conversiones",
+              description: "Avg Conversion Growth",
             },
           ]}
           textAnimation="slide-up"
