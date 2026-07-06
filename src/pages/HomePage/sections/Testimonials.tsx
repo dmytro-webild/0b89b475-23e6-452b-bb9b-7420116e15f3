@@ -18,31 +18,31 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Dr. Carlos M.",
               role: "Director, Clínica Dental Sonrisas",
               quote: "Desde que lanzamos la nueva web, hemos duplicado las reservas de citas online. El diseño transmite la confianza que nuestros pacientes necesitan.",
-              imageSrc: "https://images.pexels.com/photos/13422326/pexels-photo-13422326.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=13422326",
+              imageSrc: "http://img.b2bpic.net/free-photo/positive-middle-aged-business-leader-window_1262-5388.jpg",
             },
             {
               name: "Laura G.",
               role: "Gerente, Construcciones G&M",
               quote: "Digital Rocket entendió perfectamente nuestro sector. Ahora nuestro portafolio de proyectos luce increíble y atrae a clientes corporativos de alto nivel.",
-              imageSrc: "https://images.pexels.com/photos/28386383/pexels-photo-28386383.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=28386383",
+              imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1074.jpg",
             },
             {
               name: "Roberto V.",
               role: "CEO, Inmobiliaria Vista",
               quote: "La velocidad de carga y la integración con nuestro CRM inmobiliario ha sido clave. Una inversión que se pagó sola en el primer mes.",
-              imageSrc: "https://images.pexels.com/photos/7647213/pexels-photo-7647213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7647213",
+              imageSrc: "http://img.b2bpic.net/free-photo/elderly-businessman-posing_23-2148116269.jpg",
             },
             {
               name: "Dra. Elena S.",
               role: "Fundadora, Centro Médico Avanzado",
               quote: "Profesionalidad absoluta. La página web es ahora nuestra principal herramienta de captación de pacientes privados.",
-              imageSrc: "https://images.pexels.com/photos/6749777/pexels-photo-6749777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=6749777",
+              imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg",
             },
             {
               name: "Miguel A.",
               role: "Socio, Arquitectura y Diseño",
               quote: "El equipo de Digital Rocket superó nuestras expectativas. Un diseño moderno y elegante que refleja exactamente lo que hacemos.",
-              imageSrc: "https://images.pexels.com/photos/18604201/pexels-photo-18604201.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=18604201",
+              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-holding-phone_23-2148815605.jpg",
             },
           ]}
           textAnimation="fade"
