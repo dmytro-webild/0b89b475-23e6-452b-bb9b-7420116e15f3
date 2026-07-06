@@ -11,8 +11,8 @@ export default function AboutSection(): React.JSX.Element {
         <SectionErrorBoundary name="about">
               <AboutMediaOverlay
           tag="Nuestra Misión"
-          title="Más que Diseño Web"
-          description="En Digital Rocket, combinamos excelencia técnica con diseño estratégico para asegurar que tu web atraiga pacientes, clientes e inversores para tu clínica, constructora o inmobiliaria."
+          title="Más que una web bonita."
+          description="En Digital Rocket diseñamos páginas web para dentistas, clínicas, inmobiliarias, despachos y negocios locales que quieren que su web trabaje: atraer llamadas, reservas y contactos reales cada semana."
           imageSrc="http://img.b2bpic.net/free-photo/group-young-businesswomen-sitting-modern-office-talking-each-other_23-2147955160.jpg"
           textAnimation="fade"
         />
