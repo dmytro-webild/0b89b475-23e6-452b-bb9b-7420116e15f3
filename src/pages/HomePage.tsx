@@ -71,35 +71,6 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
-  <div id="team" data-section="team">
-    <SectionErrorBoundary name="team">
-      <TeamDetailedCards
-        tag="Conoce a Nuestro Equipo"
-        title="Los Expertos Detrás de tu Éxito"
-        description="Somos un equipo apasionado por el diseño y desarrollo web, dedicados a impulsar tu pequeña empresa."
-        members={[
-          {
-            name: "Carlos Mendoza",
-            role: "Director de Proyectos",
-            bio: "Especialista en entender las necesidades de pequeñas empresas y transformarlas en soluciones digitales efectivas.",
-            imageSrc: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-          },
-          {
-            name: "Laura Gómez",
-            role: "Diseñadora UI/UX",
-            bio: "Creadora de interfaces intuitivas y atractivas que conectan con los clientes de tu negocio.",
-            imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-          },
-          {
-            name: "Miguel Ángel",
-            role: "Desarrollador Web",
-            bio: "Experto en construir sitios web rápidos, seguros y optimizados para el crecimiento de tu empresa.",
-            imageSrc: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-          }
-        ]}
-      />
-    </SectionErrorBoundary>
-  </div>
 
   <div id="social" data-section="social">
     <SectionErrorBoundary name="social">
