@@ -15,39 +15,29 @@ export default function ProductSection(): React.JSX.Element {
           description="Explora nuestros casos de éxito en clínicas, inmobiliarias y constructoras."
           items={[
             {
-              title: "Plataforma Médica",
-              description: "Full stack architecture.",
-              imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg",
+              title: "SB Capital",
+              description: "Sitio web corporativo para empresa de inversión. Visita: sbcapital.es",
+              imageSrc: "https://images.pexels.com/photos/17238410/pexels-photo-17238410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=17238410",
             },
             {
-              title: "E-commerce Store",
-              description: "Conversion-focused shops.",
-              imageSrc: "http://img.b2bpic.net/free-photo/stylish-clothing-boutique-interior_23-2151961902.jpg",
+              title: "Tierra Cocida",
+              description: "Catálogo digital para productos artesanales. Visita: tierracocida.com",
+              imageSrc: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&q=80&w=800",
             },
             {
-              title: "Corporate Site",
-              description: "Professional brand presence.",
-              imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-online-statistics-copy-space-mockup_482257-123748.jpg",
+              title: "Clínicas Peñarrubia",
+              description: "Plataforma médica y de servicios de salud. Visita: clinicaspeñarrubia.com",
+              imageSrc: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800",
             },
             {
-              title: "Mobile Web App",
-              description: "Highly interactive UI.",
-              imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169839.jpg",
+              title: "FCS Explotaciones",
+              description: "Presencia digital para servicios empresariales. Visita: fcsexplotaciones.com",
+              imageSrc: "https://images.pexels.com/photos/38199714/pexels-photo-38199714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=38199714",
             },
             {
-              title: "Portfolio Site",
-              description: "Creative visual showcases.",
-              imageSrc: "http://img.b2bpic.net/free-photo/view-nutritional-counter-app_23-2149880610.jpg",
-            },
-            {
-              title: "Dashboard UI",
-              description: "Data-heavy application.",
-              imageSrc: "http://img.b2bpic.net/free-photo/financial-application-ui-pc-screen-showing-company-revenue_482257-119232.jpg",
-            },
-            {
-              title: "Marketing Site",
-              description: "High engagement funnel.",
-              imageSrc: "http://img.b2bpic.net/free-photo/female-web-designer-with-papers-notes-office_23-2149749877.jpg",
+              title: "Club Cadete",
+              description: "Portal web interactivo para club deportivo. Visita: clubcadete.com",
+              imageSrc: "https://images.pexels.com/photos/28310164/pexels-photo-28310164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=28310164",
             },
           ]}
           textAnimation="fade-blur"
