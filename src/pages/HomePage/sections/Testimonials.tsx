@@ -42,7 +42,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Miguel A.",
               role: "Socio, Arquitectura y Diseño",
               quote: "El equipo de Digital Rocket superó nuestras expectativas. Un diseño moderno y elegante que refleja exactamente lo que hacemos.",
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-holding-phone_23-2148815605.jpg",
+              imageSrc: "https://images.pexels.com/photos/18604201/pexels-photo-18604201.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=18604201",
             },
           ]}
           textAnimation="fade"
