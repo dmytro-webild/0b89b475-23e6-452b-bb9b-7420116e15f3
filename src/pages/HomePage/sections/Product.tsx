@@ -17,27 +17,27 @@ export default function ProductSection(): React.JSX.Element {
             {
               title: "SB Capital",
               description: "Sitio web corporativo para empresa de inversión. Visita: sbcapital.es",
-              imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-business-charts-laptop-using-paperwork-research-information-make-data-report-working-from-home-startup-analysis-with-web-graphs-browsing-internet_482257-50961.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
             },
             {
               title: "Tierra Cocida",
               description: "Catálogo digital para productos artesanales. Visita: tierracocida.com",
-              imageSrc: "http://img.b2bpic.net/free-photo/stylish-clothing-boutique-interior_23-2151961902.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&q=80&w=800",
             },
             {
               title: "Clínicas Peñarrubia",
               description: "Plataforma médica y de servicios de salud. Visita: clinicaspeñarrubia.com",
-              imageSrc: "http://img.b2bpic.net/free-photo/office-worker-analyzing-online-statistics-copy-space-mockup_482257-123748.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800",
             },
             {
               title: "FCS Explotaciones",
               description: "Presencia digital para servicios empresariales. Visita: fcsexplotaciones.com",
-              imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169839.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1541888086425-d81bb19240f5?auto=format&fit=crop&q=80&w=800",
             },
             {
               title: "Club Cadete",
               description: "Portal web interactivo para club deportivo. Visita: clubcadete.com",
-              imageSrc: "http://img.b2bpic.net/free-photo/view-nutritional-counter-app_23-2149880610.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=800",
             },
           ]}
           textAnimation="fade-blur"
