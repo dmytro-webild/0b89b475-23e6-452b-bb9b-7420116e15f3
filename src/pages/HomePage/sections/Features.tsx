@@ -10,33 +10,12 @@ export default function FeaturesSection(): React.JSX.Element {
     <div id="features" data-section="features">
         <SectionErrorBoundary name="features">
               <FeaturesBentoGrid
-          tag="Por qué elegirnos"
-          title="Diseñado para el Éxito de tu Negocio"
-          description="Soluciones digitales optimizadas para captar más clientes, pacientes o inversores."
-          features={[
-            {
-              title: "Portales para Pacientes",
-              description: "Sistemas seguros y fáciles de usar para clínicas y consultorios.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-attractive-businesswoman-crossing-arms_1262-4724.jpg",
-            },
-            {
-              title: "Catálogos Inmobiliarios",
-              description: "Muestra tus propiedades con galerías de alta calidad y filtros avanzados.",
-              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-leader-modern-office-with-businesspeople-workin_1139-956.jpg",
-            },
-            {
-              title: "Portafolios de Proyectos",
-              description: "Destaca las obras de tu constructora con un diseño impactante.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businesswoman-her-employees-background_1262-20305.jpg",
-            },
-            {
-              title: "Optimización SEO Local",
-              description: "Aparece primero cuando busquen tus servicios en tu ciudad.",
-              imageSrc: "",
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Por qué elegirnos"
+        title="Diseñado para el Éxito de tu Negocio"
+        description="Soluciones digitales optimizadas para captar más clientes, pacientes o inversores."
+        features={[{"title":"Portales para Pacientes","imageSrc":"http://img.b2bpic.net/free-photo/cheerful-attractive-businesswoman-crossing-arms_1262-4724.jpg","description":"Sistemas seguros y fáciles de usar para clínicas y consultorios."},{"description":"Muestra tus propiedades con galerías de alta calidad y filtros avanzados.","imageSrc":"http://img.b2bpic.net/free-photo/businesswoman-leader-modern-office-with-businesspeople-workin_1139-956.jpg","title":"Catálogos Inmobiliarios"},{"description":"Destaca las obras de tu constructora con un diseño impactante.","imageSrc":"http://img.b2bpic.net/free-photo/portrait-happy-businesswoman-her-employees-background_1262-20305.jpg","title":"Portafolios de Proyectos"},{"title":"Optimización SEO Local","imageSrc":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000","description":"Aparece primero cuando busquen tus servicios en tu ciudad."}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
