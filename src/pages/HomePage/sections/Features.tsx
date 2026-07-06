@@ -27,7 +27,7 @@ export default function FeaturesSection(): React.JSX.Element {
             {
               title: "Portafolios de Proyectos",
               description: "Destaca las obras de tu constructora con un diseño impactante.",
-              imageSrc: "http://img.b2bpic.net/free-photo/abstract-different-colored-draw-paper_23-2147747577.jpg",
+              imageSrc: "https://images.pexels.com/photos/35300835/pexels-photo-35300835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=35300835",
             },
             {
               title: "Optimización SEO Local",
