@@ -10,14 +10,14 @@ export default function ContactSection(): React.JSX.Element {
     <div id="contact" data-section="contact">
         <SectionErrorBoundary name="contact">
               <ContactCta
-          tag="Ready to Launch?"
-          text="Let's build something extraordinary for your business."
+          tag="¿Listo para despegar?"
+          text="Construyamos algo extraordinario para tu negocio."
           primaryButton={{
-            text: "Contact Us",
+            text: "Contáctanos",
             href: "mailto:hello@digitalrocket.com",
           }}
           secondaryButton={{
-            text: "Book a Call",
+            text: "Agendar Llamada",
             href: "#",
           }}
           textAnimation="fade-blur"
