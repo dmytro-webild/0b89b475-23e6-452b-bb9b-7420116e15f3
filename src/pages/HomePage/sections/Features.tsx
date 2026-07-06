@@ -29,6 +29,11 @@ export default function FeaturesSection(): React.JSX.Element {
               description: "Destaca las obras de tu constructora con un diseño impactante.",
               imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businesswoman-her-employees-background_1262-20305.jpg",
             },
+            {
+              title: "Optimización SEO Local",
+              description: "Aparece primero cuando busquen tus servicios en tu ciudad.",
+              imageSrc: "",
+            },
           ]}
           textAnimation="slide-up"
         />
