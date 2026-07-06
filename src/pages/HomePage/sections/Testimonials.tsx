@@ -24,7 +24,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Laura G.",
               role: "Gerente, Construcciones G&M",
               quote: "Digital Rocket entendió perfectamente nuestro sector. Ahora nuestro portafolio de proyectos luce increíble y atrae a clientes corporativos de alto nivel.",
-              imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1074.jpg",
+              imageSrc: "https://images.pexels.com/photos/28386383/pexels-photo-28386383.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=28386383",
             },
             {
               name: "Roberto V.",
