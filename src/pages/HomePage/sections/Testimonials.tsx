@@ -36,7 +36,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Dra. Elena S.",
               role: "Fundadora, Centro Médico Avanzado",
               quote: "Profesionalidad absoluta. La página web es ahora nuestra principal herramienta de captación de pacientes privados.",
-              imageSrc: "http://img.b2bpic.net/free-photo/confident-european-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-128975.jpg",
+              imageSrc: "https://images.pexels.com/photos/6749777/pexels-photo-6749777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=6749777",
             },
             {
               name: "Miguel A.",
