@@ -65,7 +65,7 @@ export default function Layout() {
             },
             {
               label: "Portfolio",
-              href: "#product",
+              href: "#portfolio",
             },
           ],
         },
