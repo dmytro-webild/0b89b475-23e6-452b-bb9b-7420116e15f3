@@ -76,10 +76,6 @@ export default function Layout() {
               label: "Web Development",
               href: "#",
             },
-            {
-              label: "SEO",
-              href: "#",
-            },
           ],
         },
         {
