@@ -57,23 +57,23 @@ export default function Layout() {
       brand="Digital Rocket"
       columns={[
         {
-          title: "Company",
+          title: "Empresa",
           items: [
             {
-              label: "About",
+              label: "Nosotros",
               href: "#about",
             },
             {
-              label: "Portfolio",
+              label: "Portafolio",
               href: "#portfolio",
             },
           ],
         },
         {
-          title: "Services",
+          title: "Servicios",
           items: [
             {
-              label: "Web Development",
+              label: "Desarrollo Web",
               href: "#",
             },
           ],
@@ -82,17 +82,17 @@ export default function Layout() {
           title: "Legal",
           items: [
             {
-              label: "Privacy",
+              label: "Privacidad",
               href: "#",
             },
             {
-              label: "Terms",
+              label: "Términos",
               href: "#",
             },
           ],
         },
       ]}
-      copyright="© 2024 Digital Rocket. All rights reserved."
+      copyright="© 2024 Digital Rocket. Todos los derechos reservados."
       links={[
         {
           label: "Twitter",
