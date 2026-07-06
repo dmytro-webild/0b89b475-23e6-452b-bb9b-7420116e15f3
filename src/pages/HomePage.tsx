@@ -13,10 +13,12 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import MetricsSection from './HomePage/sections/Metrics';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import TrustBarSection from './HomePage/sections/TrustBar';export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
+      <TrustBarSection />
 
   <SocialSection />
 
