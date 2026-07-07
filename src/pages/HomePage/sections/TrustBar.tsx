@@ -8,8 +8,8 @@ export default function TrustBarSection() {
         title="Avalados por la Industria"
         description="Nuestro compromiso con la excelencia está respaldado por certificaciones y premios líderes en el sector."
         names={[
-          "Google Partner",
-          "AWS Certified",
+          "Golden Hills",
+          "Marbella For Sale",
           "Premio Excelencia Web 2023",
           "ISO 27001",
           "Meta Business Partner",
